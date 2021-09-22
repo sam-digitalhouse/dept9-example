@@ -36,6 +36,7 @@ section img {
   overflow-y: auto;
   position: absolute;
   top: 0;
+  background-color: #e2986a;
   right: 0;
   bottom: 0;
 }
