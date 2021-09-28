@@ -5,7 +5,18 @@
   html,
   body{
     background-color: #FEDCC8;
+    font-family: 'Poppins', sans-serif;
   }
+
+  h1 {font-size:110px;color:#E52B2C;font-weight:800;margin:1rem;}
+
+  p {font-size:26px; font-weight:400;color:#E52B2C;}
+ 
+  .flex {display:flex;}
+  .f-col {flex-direction:column;}
+  .j-center {justify-content: center;}
+  .a-center {align-items: center;}
+
 
   section {
     position: sticky;
@@ -18,6 +29,18 @@
     img {
       width:100%;
     }
+    .page-section {     padding: 6rem 0;
+      .icon-container{background-color:black;margin:1rem;border-radius:6px;color:#fff;cursor:pointer;margin-top:5rem;transition:ease all .5s;    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 100%;flex:0 0 30%;height:25rem;}
+      .icon-container .icon{transform:translateY(-70px);}
+      .icon-container .icon svg {height:15rem;width: 100%;}
+      .icon-container:hover { border:solid 10px #E52B2C;}
+      .icon-container:hover svg { animation-play-state:play;transform:scale(1.1);transition:ease all .5s;}
+      .icon-container p {color:#fff;padding:0 2rem; margin:0;font-size:1.1rem;}
+    }
+
 }
   
   .parallax {
@@ -27,7 +50,7 @@
     overflow-y: auto;
     position: absolute;
     top: 0;
-    background-color: #e2986a;
+    background-color: #e3986d;
     right: 0;
     bottom: 0;
    
